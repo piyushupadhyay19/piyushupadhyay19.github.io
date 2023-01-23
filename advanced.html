@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel = "icon" href = "https://www.google.com/favicon.ico" type = "image/x-icon">
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html" ><img class="advlogo" title="Go to Google Home" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+                </a>
+            <div class="advimg">
+                <div class="img"><a href="index.html">Google Search</a></div>
+            </div>
+        </div>
+        <div class="advsearch">
+            <p>Advanced Search</p>
+        </div>
+        <div class="line"></div>
+        <div class="span"><span>Find pages with...</span></div>
+        <div class="all" style="display: flex;">
+        <div class="labels">
+        <div class="first">
+            <label for="all">all these words:</label>
+        </div>
+        <div class="second">
+            <label for="exact">this exact word or phrase:</label>
+        </div>
+        <div class="third">
+            <label for="any">any of these words:</label>
+        </div>
+        <div class="fourth">
+            <label for="none">none of these words:</label>
+        </div>
+        </div>
+        <form action="https://google.com/search" method="get">
+        <div class="inputs">
+            <input type="text" name="as_q" id="all" class="fi" style="width:500px" autofocus value="">
+            <!-- </form> -->
+            <!-- <form action="https://google.com/search"> -->
+            <input type="text" name="as_epq" id="exact" class="si" style="width:500px" value="">
+            <!-- </form> -->
+            <!-- <form action="https://google.com/search"> -->
+            <input type="text" name="as_oq" id="any" class="ti" style="width:500px" value="">
+            <!-- </form> -->
+            <!-- <form action="https://google.com/search"> -->
+            <input type="text" name="as_eq" id="none" class="foi" style="width:500px" value="">
+            </div>
+            <div class="last">
+            <input class="advsubmit" type="submit" value="Advanced Search">
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
