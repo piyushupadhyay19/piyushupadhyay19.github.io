@@ -14,7 +14,7 @@ The "I'm Feeling Lucky" button, when clicked, takes users directly to the first 
 
 ## Live Demo
 
-This project is live at [piyushupadhyay.me](https://upadhyaypiyush.tech)
+This project is live at [upadhyaypiyush.tech](https://upadhyaypiyush.tech)
 
 ## Technologies Used
 
